@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 472}
+  m_MinSize: {x: 950, y: 494}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 703
-  m_MinSize: {x: 950, y: 472}
+  m_MinSize: {x: 950, y: 494}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -92,10 +92,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 653
-  m_MinSize: {x: 913, y: 422}
+  m_MinSize: {x: 738, y: 444}
   m_MaxSize: {x: 22008, y: 10022}
   vertical: 0
-  controlID: 30
+  controlID: 73
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,12 +136,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 650
+    width: 679
     height: 653
-  m_MinSize: {x: 202, y: 422}
-  m_MaxSize: {x: 4002, y: 8022}
+  m_MinSize: {x: 202, y: 444}
+  m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 31
+  controlID: 74
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 650
+    x: 679
     y: 0
     width: 204
     height: 653
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 854
+    x: 883
     y: 0
     width: 234
     height: 653
@@ -209,19 +209,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1088
+    x: 1117
     y: 0
-    width: 278
+    width: 249
     height: 653
-  m_MinSize: {x: 277, y: 72}
+  m_MinSize: {x: 102, y: 122}
   m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 16}
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,7 +239,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 650
+    width: 679
     height: 335
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
@@ -266,10 +266,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 335
-    width: 650
+    width: 679
     height: 318
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -295,9 +295,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1088
+    x: 1117
     y: 54
-    width: 276
+    width: 247
     height: 634
   m_ViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
@@ -314,14 +314,25 @@ MonoBehaviour:
     hasCompletedInitialCheck: 0
     isUserDataPresent: 0
     lastCheckUserChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 8
+      updatedTimeString: 
+      cacheType: 0
   branchesView:
     treeLocals:
       IsRemote: 0
       folders:
-        keys: []
-        values: []
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -330,7 +341,27 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -345,8 +376,30 @@ MonoBehaviour:
     treeRemotes:
       IsRemote: 1
       folders:
-        keys: []
-        values: []
+        keys:
+        - Remote branches
+        - origin
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -355,12 +408,42 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
-      selectedNode:
-        path: 
-        label: 
+      nodes:
+      - path: Remote branches
+        label: Remote branches
         level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/master
+        label: master
+        level: 2
         isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: origin
+        label: origin
+        level: 1
+        isFolder: 1
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
@@ -370,14 +453,14 @@ MonoBehaviour:
     mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
-    disableDelete: 0
-    disableCreate: 0
+    disableDelete: 1
+    disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2020-05-04T19:09:26.563+05:30
+      cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 1
     currentBranch:
       name: 
       tracking: 
@@ -389,8 +472,12 @@ MonoBehaviour:
       host: 
       function: 0
       token: 
-    localBranches: []
-    remoteBranches: []
+    localBranches:
+    - name: master
+      tracking: origin/master
+    remoteBranches:
+    - name: origin/master
+      tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 0
@@ -533,8 +620,8 @@ MonoBehaviour:
   settingsView:
     gitPathView:
       gitPath: /usr/bin/git
-      gitLfsPath: 
-      errorMessage: Git LFS not found.
+      gitLfsPath: /usr/bin/git-lfs
+      errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
@@ -543,7 +630,7 @@ MonoBehaviour:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 1
     metricsEnabled: 1
-    newRepositoryRemoteUrl: 
+    newRepositoryRemoteUrl: https://github.com/VrajGohil/Unity-SolarSystem.git
     repositoryRemoteName: origin
     repositoryRemoteUrl: 
     scroll: {x: 0, y: 0}
@@ -581,16 +668,16 @@ MonoBehaviour:
             email: 
           lockedAtString: 
         gitFileStatus: 0
-        lockedAt: 
+        lockedAt: 1 Jan 0001, 05:30
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 6
     lockedFiles: []
     gitStatusEntries: []
     currentUsername: 
@@ -602,7 +689,7 @@ MonoBehaviour:
       m_Text: Release Lock (forced)
       m_Image: {fileID: 0}
       m_Tooltip: 
-  hasRemote: 1
+  hasRemote: 0
   currentRemoteName: 
   currentBranch: 
   currentRemoteUrl: No remote configured
@@ -645,8 +732,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0
-  appManagerProgressMessage: 
+  appManagerProgressValue: 0.9
+  appManagerProgressMessage: Initialization failed
   connections: []
   primaryConnectionUsername: 
 --- !u!114 &13
@@ -672,7 +759,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 54
-    width: 650
+    width: 680
     height: 316
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &14
@@ -695,12 +782,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1088
+    x: 1118
     y: 54
-    width: 276
+    width: 246
     height: 634
   m_ViewDataDictionary: {fileID: 0}
-  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/build
+  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
   m_RegisteredViewURLs:
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
@@ -729,7 +816,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 650
+    x: 679
     y: 54
     width: 202
     height: 634
@@ -739,7 +826,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8efbffff
+      m_ExpandedIDs: 40c9ffff8efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -784,9 +871,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1088
+    x: 1117
     y: 54
-    width: 276
+    width: 247
     height: 634
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -820,7 +907,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 854
+    x: 883
     y: 54
     width: 232
     height: 634
@@ -836,8 +923,7 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Plugins/GitHub/Editor
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
@@ -850,7 +936,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 54290000
     m_LastClickedID: 10580
-    m_ExpandedIDs: 000000005a290000be290000d2290000782b0000
+    m_ExpandedIDs: 00000000f62900006e2a0000c02b0000302c0000b42c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -878,7 +964,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000005a290000d2290000782b0000922d0000982d0000
+    m_ExpandedIDs: ffffffff00000000f62900006e2a0000c02b0000302c0000b42c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -956,7 +1042,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 389
-    width: 650
+    width: 679
     height: 299
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
@@ -970,8 +1056,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -325
-    m_HBaseRangeMax: 325
+    m_HBaseRangeMin: -339.5
+    m_HBaseRangeMax: 339.5
     m_VBaseRangeMin: -141
     m_VBaseRangeMax: 141
     m_HAllowExceedBaseRangeMin: 1
@@ -991,25 +1077,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 650
+      width: 679
       height: 282
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 325, y: 141}
+    m_Translation: {x: 339.5, y: 141}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -325
+      x: -339.5
       y: -141
-      width: 650
+      width: 679
       height: 282
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 650, y: 299}
+  m_LastWindowPixelSize: {x: 679, y: 299}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -1037,7 +1123,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 54
-    width: 650
+    width: 679
     height: 316
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -1050,9 +1136,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.3551498, y: -0.25585938, z: 0.0060043046}
+    m_Target: {x: 5, y: 0, z: 0}
     speed: 2
-    m_Value: {x: 0.3551498, y: -0.25585938, z: 0.0060043046}
+    m_Value: {x: 5, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1083,11 +1169,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Value: {x: 0.7071068, y: 0.0000008426408, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 4.0444455
+    m_Target: 0.57157665
     speed: 2
-    m_Value: 4.0444455
+    m_Value: 0.57157665
   m_Ortho:
     m_Target: 1
     speed: 2
